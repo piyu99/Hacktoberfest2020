@@ -10,7 +10,7 @@ class LinkedList:
         arr = []
         temp = self.head
         while(temp):
-            # print(temp.data)
+            # print(temp.data) and 
             arr.append(temp.data)
             temp = temp.next
         arr.sort()
